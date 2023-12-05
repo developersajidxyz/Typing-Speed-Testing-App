@@ -1,0 +1,104 @@
+body { 
+    font-family: sans-serif;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/811/650/546/colorful-vibrant-gradient-blur-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #fe9801;  */
+    color: black; 
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    } 
+    
+    .container { 
+    display: flex;
+    width: 80%;
+    margin: 1rem 3rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fff; 
+    flex-direction: column; 
+    align-items: center; 
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5),inset 5px 5px 20px rgba(0,0,0,0.5);;
+    } 
+    
+    .heading { 
+    margin-bottom: 20px; 
+    font-size: 3rem; 
+    color: #101f2c; 
+    } 
+    
+    .header { 
+    display: flex; 
+    align-items: center; 
+    } 
+    
+    .timer, .errors, .accuracy, 
+    .cpm, .wpm { 
+    background-color: #fff; 
+    height: 60px; 
+    width: 70px; 
+    margin: 8px; 
+    padding: 12px; 
+    border-radius: 20%; 
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5),inset 5px 5px 20px rgba(0,0,0,0.5); 
+    } 
+    
+    .cpm, .wpm { 
+    display: none; 
+    } 
+    
+    .header_text { 
+    text-transform: uppercase; 
+    font-size: 0.6rem; 
+    font-weight: 600; 
+    } 
+    
+    .curr_time, .curr_errors, 
+    .curr_accuracy, .curr_cpm, 
+    .curr_wpm { 
+    font-size: 2.75rem; 
+    } 
+    
+    .quote { 
+    background-color: #fff; 
+    font-size: 1.5rem; 
+    margin: 10px; 
+    padding: 25px;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5),inset 5px 5px 20px rgba(0,0,0,0.5); 
+    } 
+    
+    .input_area { 
+        background-image: linear-gradient(to right top, #cd48be, #dd35a1, #e52483, #e61e64, #e02747);
+    height: 200px; 
+    width: 100%; 
+    font-size: 1.5rem; 
+    font-weight: 600; 
+    margin: 15px 35px; 
+    padding: 20px; 
+    border: 0px; 
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5),inset 5px 5px 20px rgba(0,0,0,0.5);
+    border-radius: 10px; 
+    resize: vertical;
+    } 
+    
+    .restart_btn { 
+    display: none; 
+    color: white;
+    background-image: linear-gradient(to right top, #cd48be, #dd35a1, #e52483, #e61e64, #e02747);
+    border-radius: 10px;
+    font-size: 1.5rem; 
+    padding: 10px; 
+    border: 0px; 
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5),inset 5px 5px 20px rgba(0,0,0,0.5);
+    
+    .incorrect_char { 
+    color: red; 
+    text-decoration: underline; 
+    } 
+    
+    .correct_char { 
+    color: darkgreen; 
+    } 
+}
